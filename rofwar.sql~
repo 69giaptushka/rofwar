@@ -261,6 +261,25 @@ INSERT INTO `rof_object_properties` (`object_type`, `object_class`, `object_valu
 ('Cargo Ship', 'STR', 300),
 ('ship_stat_tank', 'STR', 150),
 ('Tanker Ship', 'STR', 300);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `table 2`
+--
+
+CREATE TABLE IF NOT EXISTS `table 2` (
+  `COL 1` varchar(35) DEFAULT NULL,
+  `COL 2` varchar(12) DEFAULT NULL,
+  `COL 3` varchar(12) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `table 2`
+--
+
+INSERT INTO `table 2` (`COL 1`, `COL 2`, `COL 3`) VALUES
+('OBJECT_TYPE', 'OBJECT_CLASS', 'OBJECT_VALUE'),
 ('ship_stat_pass', 'SPA', '150'),
 ('HMS submarine', 'SSU', '500'),
 ('ship_stat_cargo', 'STR', '150'),
